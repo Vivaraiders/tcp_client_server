@@ -59,10 +59,11 @@ Para garantir a segurança e o consentimento do dispositivo gerenciado (Cliente)
 ## ▶️ Como usar
 
 **Pré-requisitos:** Python 3.x
-
-1. No arquivo `Client/procurar_conexao.py`, altere o IP para o IPv4 da máquina onde o servidor vai rodar
-2. Rode o servidor: `python server.py`
-3. Rode o cliente: `python client.py`
+1.pip install -r requirements.txt
+2.Crie um arquivo .env na raiz do projeto seguindo o modelo do .env.example e insira a sua senha de autenticação.
+3. No arquivo `Client/procurar_conexao.py`, altere o IP para o IPv4 da máquina onde o servidor vai rodar
+4. Rode o servidor: `python server.py`
+5. Rode o cliente: `python client.py`
 
 ---
 
